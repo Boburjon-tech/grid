@@ -231,15 +231,18 @@ width: 100%;
 
 .mission3 {
     background-color:grey;
+    margin-top: 50px;
 }
 .third-mission {
     display:grid;
     grid-template-columns: repeat(16,1fr);
     grid-template-rows:repeat(24,1fr) ;
     gap:20px;
+    padding-top: 40px;
 }
 
 .third-mission__item {
+
     border:2px solid #fff;
     border-radius:4px;
     text-align: center;
@@ -477,6 +480,7 @@ width: 100%;
  .mission4 {
 
     margin-top: 30px;
+    margin-left: 50px;
 }
 .fourth-mission {
    display: flex;
@@ -486,15 +490,18 @@ width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    width: 100%;
+    width: 500px;
     gap:10px;
+    height:500px;
 }
 
 .fourth-mission__second-table {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    width: 100%;
+    width: 500px;
+
+    height:500px;
     gap: 10px;
 }
 
@@ -650,17 +657,20 @@ width: 100%;
 .mission5 {
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 50px;
 }
 .fifth-mission {
     display: grid;
     grid-template-columns: repeat(14,1fr);
     grid-template-rows: repeat(10,1fr);
     gap:5px;
+    width:500px;
+    height:500px;
 }
 .fifth-mission__item {
     text-align: center;
     border:2px solid #000;
-    width:100%;
+   
 
 }
 
@@ -711,3 +721,166 @@ width: 100%;
     grid-row: 7 / 11 ;
 }
 
+/* MISSION6 */
+
+.mission6 {
+
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+}
+.sixth-mission {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width:400px;
+    height:500px;
+    gap:10px;
+}
+.sixth-mission__item {
+    border:2px solid #000;
+    background-color: green;
+}
+
+.sixth-mission__item:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+.sixth-mission__item:nth-child(2) {
+    grid-column:2 / 3 ;
+    grid-row: 1 / 5;
+}
+
+.sixth-mission__item:nth-child(3) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+}
+
+.sixth-mission__item:nth-child(4) {
+    grid-column: 3 / 4 ;
+    grid-row: 4 / 7;
+}
+
+.sixth-mission__item:nth-child(5) {
+    grid-column: 1 / 2;
+    grid-row: 7 / 11;
+}
+
+.sixth-mission__item:nth-child(6) {
+    grid-column: 2 / 3 ;
+    grid-row: 7 / 10;
+}
+
+.sixth-mission__item:nth-child(7) {
+    grid-column: 3 / 4;
+    grid-row: 7/ 10;
+}
+
+.sixth-mission__item:nth-child(8) {
+    grid-column: 2/ 3;
+    grid-row: 10 / 13;
+}
+
+.sixth-mission__item:nth-child(9) {
+    grid-column: 3/ 4;
+    grid-row: 10 / 14;
+}
+
+.sixth-mission__item:nth-child(10) {
+    grid-column: 1 / 2;
+    grid-row: 14 / 17;
+}
+
+.sixth-mission__item:nth-child(11) {
+    grid-column:2/ 3 ;
+    grid-row: 14 / 17;
+}
+
+.sixth-mission__item:nth-child(12) {
+    grid-column: 3 / 4;
+    grid-row: 14 / 17;
+}
+
+.mission7 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+}
+.sevnth-mission {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: repeat(5 , 1fr);
+    width:500px;
+    gap: 20px;
+    height:500px;
+    /* grid-template-areas: ; */
+}
+.seventh-mission__item {
+    border:2px solid red;
+}
+
+.seventh-mission__item:nth-child(1) {
+    grid-area: 1 / 1 / span 2 / span 3;
+}
+
+.seventh-mission__item:nth-child(2) {
+    grid-area: 1 / 4 / span 3 / span 2;
+}
+
+.seventh-mission__item:nth-child(3) {
+    grid-area: 4 / 3 / span 2 / span 3;
+}
+
+.seventh-mission__item:nth-child(4) {
+    grid-area: 3 / 1 / span 3 / span 2;
+}
+
+.seventh-mission__item:nth-child(5) {
+    grid-area:3 / 3 / span 1 / span 1;
+}
+
+
+/* MISSION8 */
+
+
+.mission8 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.eighth-mission {
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(7 , 1fr);
+    width:500px;
+    height:500px;
+    gap:10px;
+   
+}
+.eighth-mission__item {
+    border:2px solid blue;
+    border-radius: 8px;
+}
+
+.eighth-mission__item:nth-child(1) {
+    grid-area: 1 / 1 / span 6  /span  4 ;
+}
+
+.eighth-mission__item:nth-child(2) {
+     grid-area: 1/ 5 / span 3 /span 3  ;
+}
+
+.eighth-mission__item:nth-child(3) {
+     grid-area: 4/  5/ span 3 /span 3 ;
+}
+
+.eighth-mission__item:nth-child(4) {
+     grid-area: 7/1  / span 2 /span 3  ;
+}
+
+.eighth-mission__item:nth-child(5) {
+     grid-area: 7/  4/ span 2  /span 4  ;
+}
